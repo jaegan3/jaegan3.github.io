@@ -45,6 +45,36 @@
      lastScrollTop = st;
  }
 
+ // Zoom in Header for blog
+ var x;
+ jQuery(window).on('scroll', function() {
+     x = jQuery(window).scrollTop();
+     jQuery('.blog_header').css('background-size', 100 + parseInt(x / 10, 0) + '% ');
+ });
+
+ //Fading Text for Blog
+ jQuery(function($) {
+     var divs = jQuery('.header-text');
+     jQuery(window).on('scroll', function() {
+         var st = jQuery(this).scrollTop();
+         divs.css({
+             'margin-top' : -(st/5)+"px",
+             'opacity' : 1 - st/200
+         });
+     });
+ });
+
+ jQuery(function(jQuery) {
+     var divs = jQuery('.blog_header');
+     jQuery(window).on('scroll', function() {
+         var st = jQuery(this).scrollTop();
+         divs.css({
+             'margin-top' : -(st/0)+"px",
+             'opacity' : 1 - st/400,
+         });
+     });
+ });
+
 /* Header Text Swap Animation */
 (function($) {
   var duration = 3000;  // change this to change rotation time in milliseconds
@@ -144,7 +174,7 @@ var targetOffset = $("#fix_it").offset().top;
 var $w = $(window).scroll(function(){
     if ( $w.scrollTop() > targetOffset ) {
         $('#fixed_it').css({"position":"fixed"});
-        
+
     } else {
       // ...
     }

@@ -3,6 +3,9 @@
     background-size: 32%;
     background-repeat: repeat-x;
     background-color: $white-light;
+    @include hero_blank-nav;
+    padding-bottom:0px;
+    margin-bottom:0px;
 
 }
 
@@ -12,6 +15,7 @@
   margin-top:-340px;
   margin-bottom:-80px;
   @include mob_no;
+
 
 }
 

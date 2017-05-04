@@ -1,0 +1,52 @@
+.blog {
+
+  .container {
+    @media screen and (min-width: $desktop) {
+    max-width: 880px;
+  }
+}
+
+.author_img {
+  text-align:right;
+
+   img {
+     width:100%;
+     max-width:80px;
+
+}
+}
+
+article {
+
+  section {
+  .blog_header {
+        padding: 16rem 2rem 10rem 2rem;
+
+        background-size:cover;
+
+        h1 {
+          color:$white;
+          font-size:4rem;
+        }
+
+        p  {
+          color:$white;
+        }
+
+        .container {
+          @media screen and (min-width: $desktop) {
+          max-width: 760px;
+        }
+      }
+  }
+
+  p {
+    max-width: 760px;
+    font-size:1.24rem;
+    line-height:1.6;
+  }
+
+}
+
+}
+}

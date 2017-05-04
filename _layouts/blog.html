@@ -3,19 +3,49 @@
 {% include nav_default.html %}
 
 <article class="post">
-
-
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
+  <section>
+    <div class="author_banner">
+      <div class="container">
+        <div class="row v_center">
+          <div class="col-md-2 p_left-0 author_img">
+              <img src="../assets/img/240x240_author-img_Jess@2x.jpg" />
+            </div>
+          </div>
+          <div class="col-md-8 p_left-0 author_bio">
+            <div>
+            <p class="lead">Jess Kahn</p>
+          </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+  <section>
+    <div style="background:url({{ page.background }});background-size:cover;" class="blog_header jumbotron jumbotron-fluid o_hidden">
+      <div class="container">
+        <div class="row v_center">
+          <div class="col-md-10 p_left-0 header-text">
+            <h1 class="display-1" >{{ page.title }}</h1>
+            <p class="lead">{{ page.subtitle }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section>
+      <div class="entry">
+        <div class="container">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+<section>
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    <div class="container">
+      Written on {{ page.date | date: "%B %e, %Y" }}
+    </div>
   </div>
-
-
+</section>
 </article>
 
 {% include footer_blog.html %}
