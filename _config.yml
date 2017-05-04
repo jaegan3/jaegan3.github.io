@@ -34,5 +34,10 @@ exclude:
   - Gemfile.lock
 
 
+# Prose settings
+prose:
+ - media: "assets/img/"
+
+
 
 #Custom Variables
