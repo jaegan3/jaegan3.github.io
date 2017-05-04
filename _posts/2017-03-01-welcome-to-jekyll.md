@@ -4,7 +4,7 @@ title: Welcome to Jekyll!
 date: '2017-03-01 15:14:09 -0600'
 categories: jekyll update
 published: true
-permalink: /blog/test-1
+permalink: /blog/test-6
 background: ../assets/img/blog-test-bg.jpg
 ---
 Cage Data, a DevOps consulting firm and Managed Service Provider (MSP), helps clients like Charter Oak Financial Group and Bio-Techne build product delivery processes that rival the likes of fast-moving tech companies. Based in Wallingford, CT, right near the insurance capital of Hartford, the company is perfectly positioned to bring a progressive mindset to a big enterprise audience.  
