@@ -6,6 +6,30 @@
   }
 }
 
+figure {
+  padding: 4rem 2rem;
+background: $white-light;
+margin: 2rem;
+border-radius: 4px;
+@include borda;
+}
+
+.author_banner {
+  padding-top:80px;
+
+  p {
+    font-size: 1.04rem;
+font-weight: 700;
+margin-bottom:0px;
+  }
+
+  .date {
+    font-weight:400;
+    color:$grey-light;
+    font-size: 1rem;
+  }
+}
+
 .author_img {
   text-align:right;
 
@@ -19,10 +43,14 @@
 article {
 
   section {
-  .blog_header {
-        padding: 16rem 2rem 10rem 2rem;
 
-        background-size:cover;
+  .entry {
+    @include padding_tb;
+  }
+  .blog_header {
+        padding: 10rem 2rem;
+        background-position:center !important;
+        max-height: 800px;
 
         h1 {
           color:$white;

@@ -8,13 +8,13 @@
       <div class="container">
         <div class="row v_center">
           <div class="col-md-2 p_left-0 author_img">
-              <img src="../assets/img/240x240_author-img_Jess@2x.jpg" />
-            </div>
+              <img src="../assets/img/100x100_author-img_Jess@2x.png" />
           </div>
           <div class="col-md-8 p_left-0 author_bio">
-            <div>
-            <p class="lead">Jess Kahn</p>
-          </div>
+
+            <p>Jessica Kahn</p>
+            <p class="date">{{ page.date | date: "%B %e, %Y" }} | <a href="">See More Posts from Jess</a></p>
+
           </div>
         </div>
         </div>
@@ -39,13 +39,6 @@
         </div>
       </div>
     </section>
-<section>
-  <div class="date">
-    <div class="container">
-      Written on {{ page.date | date: "%B %e, %Y" }}
-    </div>
-  </div>
-</section>
 </article>
 
 {% include footer_blog.html %}
