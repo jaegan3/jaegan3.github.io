@@ -7117,5 +7117,7 @@ footer {
   max-width: 760px;
   font-size: 1.24rem;
   line-height: 1.6; }
+  .blog article section p img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
