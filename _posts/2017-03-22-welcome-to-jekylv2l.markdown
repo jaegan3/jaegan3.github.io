@@ -3,7 +3,7 @@ layout: blog
 title: U Mad Bro
 date: '2017-03-15 15:14:09 -0600'
 categories: jekyll update devops
-permalink: /blog/u-mad-bro
+permalink: /blog/u-mad-bro-v2
 background: ../assets/img/blog-test-bg.jpg
 published: true
 ---
